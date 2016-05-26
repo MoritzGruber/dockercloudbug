@@ -1,7 +1,8 @@
 This repo is just to demo a bug:
 
-1. create 2 docker containers (mongo and node) and let them talk on your local docker
-== > works just fine
+Use '''docker-compose up''' to run the demo
 
-2. test this setup in digital ocean ubuntu 14.04 setup or any other cloud hosted linux os
-communication to mongo timed out
+- on my local dev env(osx or win) erverthing works just fine, mongodb connects successful 
+- on cloud hosted linux system (ubuntu 14.04, centOS, fedora) connection times out after some minutes
+
+Does the docker host accutally matter ?
